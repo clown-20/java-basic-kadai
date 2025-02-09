@@ -8,12 +8,11 @@ public class KatoExec_Chapter18 {
         KatoIchiro_Chapter18 kato2 = new KatoIchiro_Chapter18();
         KatoHanako_Chapter18 kato3 = new KatoHanako_Chapter18();
         
-        // 名前を設定
-        kato1.setGivenName("太郎");
-        kato2.setGivenName("一郎");
-        kato3.setGivenName("花子");
+        kato1.setGivenName();
+        kato2.setGivenName();
+        kato3.setGivenName();
         
-        // 各オブジェクトの紹介を実行
+           // 各オブジェクトの紹介を実行
         kato1.execIntroduce();
         kato2.execIntroduce();
         kato3.execIntroduce();

@@ -24,8 +24,5 @@ public class Kato_Chapter18 {
         eachIntroduce();
     }
 
-    // givenNameを設定する
-    public void setGivenName(String givenName) {
-        this.givenName = givenName;
-	   }
+   
 }
